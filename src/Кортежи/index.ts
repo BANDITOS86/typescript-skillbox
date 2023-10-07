@@ -8,12 +8,12 @@
 
 /////////////////////////////////
 
-type Person = [ string, number, boolean? ];
+// type Person = [ string, number, boolean? ];
 
-const person1: Person = [ 'Alex', 1900, ];
-const person2: Person = [ 'Alex', 1900, true ];
+// const person1: Person = [ 'Alex', 1900, ];
+// const person2: Person = [ 'Alex', 1900, true ];
 
-person1[0];
-person1[1];
-person1[2];
+// person1[0];
+// person1[1];
+// person1[2];
 
