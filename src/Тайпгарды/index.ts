@@ -43,18 +43,18 @@
 
 ///////////////////////////////////////
 
-type Person = { kind: 'person', name: string };
-type Animal = { kind: 'animal', color: string };
+// type Person = { kind: 'person', name: string };
+// type Animal = { kind: 'animal', color: string };
 
-function handle(value: Person | Animal): void {
-  if (value.kind === 'animal') {
-    value.color; // ?
-  }
+// function handle(value: Person | Animal): void {
+//   if (value.kind === 'animal') {
+//     value.color; // ?
+//   }
 
-  if (value.kind === 'person') {
-    value.name; // ?
-  }
-}
+//   if (value.kind === 'person') {
+//     value.name; // ?
+//   }
+// }
 
-handle({ kind: 'animal', color: 'green' });
-handle({ kind: 'person', name: 'Alex' });
+// handle({ kind: 'animal', color: 'green' });
+// handle({ kind: 'person', name: 'Alex' });
