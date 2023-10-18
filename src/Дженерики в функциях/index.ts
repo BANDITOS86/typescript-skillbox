@@ -36,8 +36,8 @@
 
 ///////////////////////////////////
 
-function merge<T, U>(a: T, b: U): T & U {
-  return {...a, ...b}  
-}
+// function merge<T, U>(a: T, b: U): T & U {
+//   return {...a, ...b}  
+// }
 
-const object = merge({ a: 42 }, { b: 'string' });
+// const object = merge({ a: 42 }, { b: 'string' });
